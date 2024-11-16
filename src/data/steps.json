@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "step": "Step 1",
+    "stepName": "You Info",
+    "path": "/youinfo",
+    "path2": "/"
+  },
+  {
+    "id": 2,
+    "step": "Step 2",
+    "stepName": "Select Plan",
+    "path": "/youplan"
+  },
+  {
+    "id": 3,
+    "step": "Step 3",
+    "stepName": "ADD-ONS",
+    "path": "/pickaddons"
+  },
+  {
+    "id": 4,
+    "step": "Step 4",
+    "stepName": "Summary",
+    "path": "/finally"
+  }
+]

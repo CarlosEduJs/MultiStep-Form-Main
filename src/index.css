@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+aside {
+  background-image: url("./assets/images/bg-sidebar-desktop.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  aside {
+    background-image: url("./assets/images/bg-sidebar-mobile.svg");
+  }
+}
+
+.step {
+  font-weight: 100;
+}

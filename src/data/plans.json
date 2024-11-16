@@ -1,0 +1,29 @@
+[
+  {
+    "planId": 1,
+    "planIcon": "/assets/images/icon-arcade.svg",
+    "planName": "Arcade",
+    "planPrices": {
+      "monthly": 9,
+      "yearly": 90
+    }
+  },
+  {
+    "planId": 2,
+    "planIcon": "/assets/images/icon-advanced.svg",
+    "planName": "Advanced",
+    "planPrices": {
+      "monthly": 12,
+      "yearly": 120
+    }
+  },
+  {
+    "planId": 3,
+    "planIcon": "/assets/images/icon-pro.svg",
+    "planName": "Pro",
+    "planPrices": {
+      "monthly": 15,
+      "yearly": 150
+    }
+  }
+]
